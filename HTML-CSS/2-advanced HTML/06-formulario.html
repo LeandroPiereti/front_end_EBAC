@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head> 
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- para ajustar a tela no celular -->		
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+
+<header> <!-- serve para marcar o cabeçalho-->
+	<h2>Curos Front-end</h2>
+</header>
+
+<section>
+	<nav>
+		<ul class="navegacao">
+			<li><a href="05-layouts.html">Home</li>
+			<li><a href="homepage.html">Sobre</li>
+			<li><a href="06-formulario.html">contato</li>	
+		</ul>
+		</nav>
+		<article>
+			<h1>Contato</h1>
+			<p>Preencha os campos abaixo</p>
+
+			<form method="post"> <! -- form = formulario -->
+				<div>
+					<label for="nome"> Nome</label> <br>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+				</div>
+				
+				<div>
+				<label for="email">E-mail</label> <br>
+				<input type="email" name="email" id="email" placeholder="Digite seu email">
+			</div>
+
+			<div>
+				<label for="mensagem"> Mensagem	</label> <br>
+				<textarea name="mensagem" id="mensagem" placeholder="Deixe sua mensagem" rows="5"></textarea>
+				
+				</div>
+
+				<div>
+					<p>
+						<label>Quais linguagens você prefere?</label>
+						<input type="radio" name="linguagem" value="html"> HTMl
+						<input type="radio" name="linguagem" value="css"> CSS
+						<input type="radio" name="linguagem" value="java"> Java
+				</p>
+				</div>
+
+				<div>
+					<p>
+						<label>Quais linguagens você sabe?</label>
+						<input type="checkbox" name="linguagem" value="html"> HTMl
+						<input type="checkbox" name="linguagem" value="css"> CSS
+						<input type="checkbox" name="linguagem" value="java"> Java
+				</p>
+				</div>
+			<div>
+				<label>Qual sua cor favorita?</label>
+				<select>
+					<option value="azul">Azul</option>
+					<option value="verde">verde</option>
+					<option value="vermelho" selected>vermelho</option>
+				</select>
+
+			</div>
+					
+			<div>
+				<input type="submit">
+
+			</div>
+</form>
+		</article>
+	
+</section>
+
+<footer>
+	<p>Desenvolvido por Leandro</p>
+</footer>
+
+</body>
+</html>
+
+<!-- textarea = cria a area de texto
+	rows = cria um campo de linhas que o usuario pode escrever
+	div cria uma divisao
+	-- >

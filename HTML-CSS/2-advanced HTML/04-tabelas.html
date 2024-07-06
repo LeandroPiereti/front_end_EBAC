@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head> 
+		<title>HTML - Tabelas</title>
+		<meta charset="UTF-8">
+</head>
+<body>
+	<h1>Tabelas</h1>
+
+	<table border="1" width="100%">
+		<thead>
+			<th>Coluna 1</th>
+			<th>Coluna 2</th>
+			<th>Coluna 3</th>
+			</tr>
+			<tr>
+				<td align="center" colspan="3">Descrição da tabela</td>
+			</tr>
+		</thead>
+		<tbody>
+		<tr align="center">
+			<td>1A</td>
+			<td>1B</td>
+			<td>1C</td>
+		</tr>
+		<tr>
+			<td>2A</td>
+			<td>2B</td>
+			<td>2C</td>
+		</tr>
+		<tr>
+			<td>3A</td>
+			<td>3B</td>
+			<td>3C</td>
+		</tr>
+		
+		</tbody>
+
+		<tfoot>
+			<tr>
+				<td colspan="3"> Rodape </td>
+			</tr>			
+		</tfoot>
+	</table>
+
+	<h2>Tabela como layout</h2>
+<table width="600">
+	<tr>
+		
+		<td colspan="4" bgcolor="#BBCCCEE">CABEÇALHO</td>
+	</tr>
+	<tr height="300">
+		<td></td>
+		<td bgcolor="#FF00000">Coluna 1 </td>
+		<td>Coluna 2</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td colspan="3"> Rodapé</td>
+		
+	</tr>
+</table>
+
+<!-- tr =linha da tabela
+	td = celulas 
+	tbody identifica o corpo da tabela, porem nao é obrigatorio
+	thead = cabeçalho da tablea onde pode decidir os titulos da coluna
+	colspan = comando para ocupar toda a tabela e o 3 é a quantidade de colunas a ocupar
+	align = alinhar
+	tfoot = rodape
+	width="600" = comando que define a largura da tabela e o 600 sem a % significa pixels
+	height = altura
+	 -->
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+
+table {
+
+	border: 1px solid;
+	background: #ffffff;
+	width: 100%;
+	border-collapse: collapse;
+
+}
+
+table tr,
+table th,
+table td
+ {
+	border: 1px solid #757575;
+	font-size: 1.5rem;
+}
+
+table th,
+table td {
+	padding: 1rem;
+	text-align: center;
+}
+
+table td:hover{
+	background-color: rgba(0,0,185,0.5);
+}
+
+table tr td:first-child {
+text-align: left;
+}
+
+table th {
+	background-color: #234589;
+	color: #ffffff;
+}
+
+tfoot {
+	background-color: #CCCCCC;
+	font-weight: bold;
+}
