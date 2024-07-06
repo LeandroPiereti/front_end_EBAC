@@ -32,3 +32,13 @@ Informação de alterações
 
 ## GITFLOW
 fluxo do Git
+
+## branch 
+sao ramificações / versões paralelas
+
+main/ master (vai para produçao, quando o codigo é publicado)
+-develop
+-DOD Definition of done (tarefa concluida)
+
+-versionamento 0.1.10 (terceiro digito para pequnas atualizaçoes, segundo digito para atualizações mais significativas e a primeira quando for 1.0.0 seriua a versao de produção)
+
