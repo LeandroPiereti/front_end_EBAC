@@ -20,10 +20,14 @@ Arquivo B | Versao 1 | versao 2
 ## Criar conta no GITHUB
 
 ## Clonar o projeto
+git clone https://github.com/LeandroPiereti/front_end_EBAC.git
 
 ## Commits
 Informação de alterações
 - após testado o codigo
+- usar o codigo git add *
+- e depois o comando git commit -m "mensagem"
+- git push enviar alteraçoes para o repositorio
 
 ## GITFLOW
 fluxo do Git
