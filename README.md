@@ -28,6 +28,7 @@ Informação de alterações
 - usar o codigo git add *
 - e depois o comando git commit -m "mensagem"
 - git push enviar alteraçoes para o repositorio
+- git pull (quando se altera algo ou quando quer baixar do github para minha maquina)
 
 ## GITFLOW
 fluxo do Git
